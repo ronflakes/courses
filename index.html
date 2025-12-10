@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Training Courses</title>
+    <title>403 Forbidden</title>
     <style>
         * {
             margin: 0;
@@ -13,7 +13,7 @@
         
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #f5f5f5;
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -22,172 +22,33 @@
         }
         
         .container {
-            max-width: 1200px;
-            width: 100%;
+            text-align: center;
+            max-width: 600px;
         }
         
         h1 {
-            color: white;
-            text-align: center;
-            margin-bottom: 40px;
-            font-size: 2.5rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-        }
-        
-        .courses {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-        
-        .course-card {
-            background: white;
-            border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            text-decoration: none;
-            color: inherit;
-            display: block;
-        }
-        
-        .course-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
-        }
-        
-        .course-card h2 {
-            color: #667eea;
-            margin-bottom: 15px;
-            font-size: 1.8rem;
-        }
-        
-        .course-card p {
-            color: #666;
-            line-height: 1.6;
+            font-size: 6rem;
+            color: #333;
             margin-bottom: 20px;
         }
         
-        .course-card .btn {
-            display: inline-block;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 12px 24px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: opacity 0.3s ease;
+        h2 {
+            font-size: 2rem;
+            color: #666;
+            margin-bottom: 20px;
         }
         
-        .course-card .btn:hover {
-            opacity: 0.9;
-        }
-        
-        .icon {
-            font-size: 3rem;
-            margin-bottom: 15px;
-        }
-        
-        @media (max-width: 640px) {
-            h1 {
-                font-size: 2rem;
-            }
-            
-            .courses {
-                grid-template-columns: 1fr;
-            }
+        p {
+            color: #999;
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>📚 Training Courses</h1>
-        
-        <div class="courses">
-            <div class="course-card">
-                <div class="icon">🎯</div>
-                <h2>Ronmon Demo</h2>
-                <p>Interactive training course demonstrating key concepts and best practices.</p>
-                <a href="ronmon_demo/index.html" class="btn">Launch Course →</a>
-            </div>
-            
-            <div class="course-card">
-                <div class="icon">📊</div>
-                <h2>SS Acumen Demo</h2>
-                <p>Strategic skills development focused on business acumen and decision-making.</p>
-                <a href="ss%20acumen%20demo%20-%20Storyline%20output/index.html" class="btn">Launch Course →</a>
-            </div>
-            
-            <div class="course-card">
-                <div class="icon">💼</div>
-                <h2>SS Demo</h2>
-                <p>Professional skills training and development course.</p>
-                <a href="ss%20demo/index.html" class="btn">Launch Course →</a>
-            </div>
-            
-            <div class="course-card">
-                <div class="icon">🚀</div>
-                <h2>SS Evolve Demo</h2>
-                <p>Advanced learning course focused on evolution and continuous improvement.</p>
-                <a href="ss%20evolve%20demo%20-%20Storyline%20output/index.html" class="btn">Launch Course →</a>
-            </div>
-            
-            <div class="course-card">
-                <div class="icon">🔍</div>
-                <h2>SS Explore Demo</h2>
-                <p>Exploratory learning course designed to discover new skills and concepts.</p>
-                <a href="ss%20explore%20demo%20-%20Storyline%20output/index.html" class="btn">Launch Course →</a>
-            </div>
-            
-            <div class="course-card">
-                <div class="icon">🛡️</div>
-                <h2>AU Bullying Demo</h2>
-                <p>Workplace bullying prevention and awareness training.</p>
-                <a href="au%20bullying%20demo%20-%20Storyline%20output/story.html" class="btn">Launch Course →</a>
-            </div>
-            
-            <div class="course-card">
-                <div class="icon">⚖️</div>
-                <h2>AU EEO Demo</h2>
-                <p>Equal Employment Opportunity compliance and diversity training.</p>
-                <a href="au%20eeo%20demo%20-%20Storyline%20output/story.html" class="btn">Launch Course →</a>
-            </div>
-            
-            <div class="course-card">
-                <div class="icon">✅</div>
-                <h2>AU Safe Demo</h2>
-                <p>Workplace health and safety compliance training for Australian standards.</p>
-                <a href="au%20safe%20demo%20-%20Storyline%20output/story.html" class="btn">Launch Course →</a>
-            </div>
-            
-            <div class="course-card">
-                <div class="icon">🤖</div>
-                <h2>AIDE Demo</h2>
-                <p>AI-powered learning and development training course.</p>
-                <a href="AIDE_demo/story.html" class="btn">Launch Course →</a>
-            </div>
-            
-            <div class="course-card">
-                <div class="icon">🗺️</div>
-                <h2>Adventurer Demo</h2>
-                <p>Engaging adventure-based learning experience.</p>
-                <a href="adventurer_demo/story.html" class="btn">Launch Course →</a>
-            </div>
-            
-            <div class="course-card">
-                <div class="icon">🎨</div>
-                <h2>Comics Demo</h2>
-                <p>Visual storytelling and interactive comic-based training.</p>
-                <a href="comics_demo/story.html" class="btn">Launch Course →</a>
-            </div>
-            
-            <div class="course-card">
-                <div class="icon">🎲</div>
-                <h2>Jeopardy Demo</h2>
-                <p>Game-based learning with quiz-style interactions.</p>
-                <a href="jeopardy_demo/story.html" class="btn">Launch Course →</a>
-            </div>
-        </div>
+        <h1>403</h1>
+        <h2>Forbidden</h2>
+        <p>You don't have permission to access this directory.</p>
     </div>
 </body>
 </html>
